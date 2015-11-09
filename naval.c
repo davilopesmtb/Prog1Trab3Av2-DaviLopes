@@ -43,8 +43,7 @@ int main()
         {
             jogo[i][j] = 'X';
             pontos ++;
-            printf("Bomba! ");
-            printf("Você ganhou %d ponto(s)\n", pontos);
+            printf("Bomba! Você ganhou %d ponto(s)\n", pontos);
             printf("Deseja Continuar? 1 = Sim / 0= Não:");
             scanf("%d", &continuar);
         }
@@ -74,18 +73,17 @@ int main()
         {
             jogo[i][j] = 'X';
             pontos ++;
-            printf("Bomba! ");
-            printf("Você ganhou %d ponto(s)\n", pontos);
+            printf("Bomba! Você ganhou %d ponto(s)\n", pontos);
             printf("Deseja Continuar? 1 = Sim / 0= Não:");
             scanf("%d", &continuar);
         }
     else
         {
             jogo[i][j] = 'O';
-            printf("Agua!!, que pena\n");
+            printf("Agua!!, que pena.\n");
             printf("Deseja Continuar? 1 = Sim / 0= Não:");
             scanf("%d", &continuar);
-                }
+        }
     for(i=1; i<6; i++)
                     { 
     for(j=1; j<6; j++)
